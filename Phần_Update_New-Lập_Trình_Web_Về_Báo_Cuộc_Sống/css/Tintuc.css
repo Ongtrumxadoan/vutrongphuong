@@ -1,8 +1,19 @@
+:root {
+  --background: aqua;
+  --switch-toggie: rgb(44, 197, 197);
+  --transition-effect: cubic-bezier(1, -0.53, .38, 1.54).4s;
+}
+
 .all {
   font-family: 'Merriweather', sans-serif;
   margin-right: 250px;
   margin-left: 250px;
+  transition: var(--transition-effect);
+}
 
+.dark .all {
+  color: #ffffff;
+  transition: var(--transition-effect);
 }
 
 body {
@@ -35,6 +46,11 @@ figcaption {
   margin-bottom: 50px;
   margin-top: 40px;
   margin-right: 301px;
+  transition: var(--transition-effect);
+}
+.dark .m1{
+  color: #ffffff;
+  transition: var(--transition-effect);
 }
 
 .section {
@@ -52,7 +68,7 @@ figcaption {
   font-size: 17px;
   font-family: 'Merriweather', sans-serif;
   margin-bottom: -148px;
-  margin-top: -1284px;
+  margin-top: -797px;
 }
 
 figcaption {
@@ -110,16 +126,16 @@ input.to1 {
 }
 
 header {
-  margin-right: 67px
+  margin-right: 0px
 }
 
 .edit_video {
 
   margin-left: 800px;
-    height: 0px;
-    width: 0px;
-    margin-bottom: -222px;
-    margin-top: 265px;
+  height: 0px;
+  width: 0px;
+  margin-bottom: -222px;
+  margin-top: 265px;
 }
 
 .edit_video iframe {
@@ -130,10 +146,10 @@ header {
 
 .edit_video1 {
   margin-left: 800px;
-    height: 0px;
-    width: 0px;
-    margin-top: 0px;
-    margin-bottom: 786px
+  height: 0px;
+  width: 0px;
+  margin-top: 0px;
+  margin-bottom: 786px
 }
 
 .edit_video1 iframe {

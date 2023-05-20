@@ -19,85 +19,89 @@
 <body>
     <header>
         <!-- Phần Upadate tất cả logo mới -->
-        <div class="logobaocuocsong">
-          <a href="../index.html">
-            <p style = "font-family:courier,arial,helvetica;">
-            𝕭𝖆́𝖔 𝕮𝖚𝖔̣̂𝖈 𝕾𝖔̂́𝖓𝖌 
-          </p> 
-          </a>
-             
-        </div>
-    
-        <div id="menu">
-          <ul>
-            <li>
-              <a href="#">Tin Tức</a>
-              <ul class="sub-menu">
-                <li><a href="#">Tin Tức Trong Nước</a></li>
-                <li><a href="#">Tin Tức Quốc Tế</a></li>
-                <li><a href="#">Tin Tức Tổng Hợp</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Thể Thao</a>
-              <ul class="sub-menu">
-                <li><a href="#">Thể Thao Trong Nước</a></li>
-                <li><a href="#">Thể Thao Quốc Tế</a></li>
-                <li><a href="#">Thể Thao Khác</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Xe Cộ</a>
-              <ul class="sub-menu">
-                <li><a href="#">Xe Cộ Trong Nước</a></li>
-                <li><a href="#">Xe Cộ Quốc Tế</a></li>
-                <li><a href="#">Xe Cộ Khác</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Chứng Khoán</a>
-              <ul class="sub-menu">
-                <li><a href="#">Chứng Khoán 24/24</a></li>
-                <li><a href="#">Chứng Khoán Tổng Hợp </a></li>
-                <li><a href="#">Chứng Khoán Khác</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Văn Hóa</a>
-              <ul class="sub-menu">
-                <li><a href="#">Khám Phá</a></li>
-                <li><a href="#">Sống Đẹp</a></li>
-                <li><a href="#">Xem-Nghe</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        </div>
-        <div class="khac">
-          <li><input placeholder="Tìm kiếm" type="text"></li>
+      <div class="logobaocuocsong">
+        <a href="../index1.html">
+           <p style = "font-family:courier,arial,helvetica;">
+          𝕭𝖆́𝖔 𝕮𝖚𝖔̣̂𝖈 𝕾𝖔̂́𝖓𝖌 
+        </p>     
+        </a>
+        
+      </div>
+      <div id="menu">
+        <ul>
           <li>
-            <i1 class="fa-solid fa-magnifying-glass"></i1>
+            <a href="#">Tin Tức</a>
+            <ul class="sub-menu">
+              <li><a href="#">Tin Tức Trong Nước</a></li>
+              <li><a href="#">Tin Tức Quốc Tế</a></li>
+              <li><a href="#">Tin Tức Tổng Hợp</a></li>
+            </ul>
           </li>
+          <li>
+            <a href="#">Thể Thao</a>
+            <ul class="sub-menu">
+              <li><a href="#">Thể Thao Trong Nước</a></li>
+              <li><a href="#">Thể Thao Quốc Tế</a></li>
+              <li><a href="#">Thể Thao Khác</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Xe Cộ</a>
+            <ul class="sub-menu">
+              <li><a href="#">Xe Cộ Trong Nước</a></li>
+              <li><a href="#">Xe Cộ Quốc Tế</a></li>
+              <li><a href="#">Xe Cộ Khác</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Chứng Khoán</a>
+            <ul class="sub-menu">
+              <li><a href="#">Chứng Khoán 24/24</a></li>
+              <li><a href="#">Chứng Khoán Tổng Hợp </a></li>
+              <li><a href="#">Chứng Khoán Khác</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Văn Hóa</a>
+            <ul class="sub-menu">
+              <li><a href="#">Khám Phá</a></li>
+              <li><a href="#">Sống Đẹp</a></li>
+              <li><a href="#">Xem-Nghe</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>     
+      </div>
+        <div class="khac">    
+          <li><input placeholder="Tìm kiếm" type="text"></li>  
+          <li><i1 class="fa-solid fa-magnifying-glass"></i1></li>
           <li><i class="fa-solid fa-list"></i></li>
           <li><i class="fa-solid fa-bug"></i></li>
-          <li>
-            <a href="login.html">
-    
-              <button class="button_login1">
-                <i class="fa-solid fa-house">
-                  <p>LoGin</p>
-    
-                </i>
-              </button>
-    
-            </a>
+          <li> 
+            <script>
+              function light(sw) {
+              var pic;
+              if (sw == 0) {
+               alert("da dang xuat thanh cong");
+               window.location.href ="../index.html";
+              
+              } else {
+                  window.location.href ="../index1.html"
+              }
+              document.getElementById('myImage').src = pic;
+              }
+              </script>
+              
+               
+              <p>
+               <button class="button_dxuat" type="button" onclick="light(0)">Đăng Xuất</button>
+              </p>
           </li>
-    
-    
         </div>
-    
+        </div>
+  
       </header>
-    <hr class="black_line"  width="1465px" size="3px" noshade="noshade" />
+    <hr class="black_line"   width="1465px" size="3px" noshade="noshade" />
 <!-- Phần nút giao diện backgrond -->
 <div id="wrapper">
     <input type="checkbox" name="" class="switch-toggle" id="light-dark">

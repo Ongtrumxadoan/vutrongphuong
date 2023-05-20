@@ -19,91 +19,95 @@
 <body>
     <header>
         <!-- Phần Upadate tất cả logo mới -->
-        <div class="logobaocuocsong">
-          <a href="../index.html">
-            <p style = "font-family:courier,arial,helvetica;">
-            𝕭𝖆́𝖔 𝕮𝖚𝖔̣̂𝖈 𝕾𝖔̂́𝖓𝖌 
-          </p> 
-          </a>
-             
-        </div>
-    
-        <div id="menu">
-          <ul>
-            <li>
-              <a href="#">Tin Tức</a>
-              <ul class="sub-menu">
-                <li><a href="#">Tin Tức Trong Nước</a></li>
-                <li><a href="#">Tin Tức Quốc Tế</a></li>
-                <li><a href="#">Tin Tức Tổng Hợp</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Thể Thao</a>
-              <ul class="sub-menu">
-                <li><a href="#">Thể Thao Trong Nước</a></li>
-                <li><a href="#">Thể Thao Quốc Tế</a></li>
-                <li><a href="#">Thể Thao Khác</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Xe Cộ</a>
-              <ul class="sub-menu">
-                <li><a href="#">Xe Cộ Trong Nước</a></li>
-                <li><a href="#">Xe Cộ Quốc Tế</a></li>
-                <li><a href="#">Xe Cộ Khác</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Chứng Khoán</a>
-              <ul class="sub-menu">
-                <li><a href="#">Chứng Khoán 24/24</a></li>
-                <li><a href="#">Chứng Khoán Tổng Hợp </a></li>
-                <li><a href="#">Chứng Khoán Khác</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Văn Hóa</a>
-              <ul class="sub-menu">
-                <li><a href="#">Khám Phá</a></li>
-                <li><a href="#">Sống Đẹp</a></li>
-                <li><a href="#">Xem-Nghe</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        </div>
-        <div class="khac">
-          <li><input placeholder="Tìm kiếm" type="text"></li>
+      <div class="logobaocuocsong">
+        <a href="../index1.html">
+           <p style = "font-family:courier,arial,helvetica;">
+          𝕭𝖆́𝖔 𝕮𝖚𝖔̣̂𝖈 𝕾𝖔̂́𝖓𝖌 
+        </p>     
+        </a>
+        
+      </div>
+      <div id="menu">
+        <ul>
           <li>
-            <i1 class="fa-solid fa-magnifying-glass"></i1>
+            <a href="#">Tin Tức</a>
+            <ul class="sub-menu">
+              <li><a href="#">Tin Tức Trong Nước</a></li>
+              <li><a href="#">Tin Tức Quốc Tế</a></li>
+              <li><a href="#">Tin Tức Tổng Hợp</a></li>
+            </ul>
           </li>
+          <li>
+            <a href="#">Thể Thao</a>
+            <ul class="sub-menu">
+              <li><a href="#">Thể Thao Trong Nước</a></li>
+              <li><a href="#">Thể Thao Quốc Tế</a></li>
+              <li><a href="#">Thể Thao Khác</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Xe Cộ</a>
+            <ul class="sub-menu">
+              <li><a href="#">Xe Cộ Trong Nước</a></li>
+              <li><a href="#">Xe Cộ Quốc Tế</a></li>
+              <li><a href="#">Xe Cộ Khác</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Chứng Khoán</a>
+            <ul class="sub-menu">
+              <li><a href="#">Chứng Khoán 24/24</a></li>
+              <li><a href="#">Chứng Khoán Tổng Hợp </a></li>
+              <li><a href="#">Chứng Khoán Khác</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Văn Hóa</a>
+            <ul class="sub-menu">
+              <li><a href="#">Khám Phá</a></li>
+              <li><a href="#">Sống Đẹp</a></li>
+              <li><a href="#">Xem-Nghe</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>     
+      </div>
+        <div class="khac">    
+          <li><input placeholder="Tìm kiếm" type="text"></li>  
+          <li><i1 class="fa-solid fa-magnifying-glass"></i1></li>
           <li><i class="fa-solid fa-list"></i></li>
           <li><i class="fa-solid fa-bug"></i></li>
-          <li>
-            <a href="login.html">
-    
-              <button class="button_login1">
-                <i class="fa-solid fa-house">
-                  <p>LoGin</p>
-    
-                </i>
-              </button>
-    
-            </a>
+          <li> 
+            <script>
+              function light(sw) {
+              var pic;
+              if (sw == 0) {
+               alert("da dang xuat thanh cong");
+               window.location.href ="../index.html";
+              
+              } else {
+                  window.location.href ="../index1.html"
+              }
+              document.getElementById('myImage').src = pic;
+              }
+              </script>
+              
+               
+              <p>
+               <button class="button_dxuat" type="button" onclick="light(0)">Đăng Xuất</button>
+              </p>
           </li>
-    
-    
         </div>
-    
+        </div>
+  
       </header>
-    <hr class="black_line"  width="1465px" size="3px" noshade="noshade" />
+    <hr class="black_line"   width="1465px" size="3px" noshade="noshade" />
 <!-- Phần nút giao diện backgrond -->
 <div id="wrapper">
     <input type="checkbox" name="" class="switch-toggle" id="light-dark">
   </div>
 
-<!-- Phần js -->
+
   <script>
     var checkbox_toggle = document.getElementById('light-dark');
 
@@ -120,8 +124,7 @@
 
 
             <h1 class="m1">
-                5 điều thú vị về vịnh Lan Hạ, một trong những vịnh đẹp nhất thế giới
-            </h1>
+                Sapa được bình chọn là một trong những thị trấn nhỏ đẹp nhất thế giới </h1>
         </div>
 
 
@@ -201,16 +204,15 @@
 
             <h2 id="main1">
 
-                Nằm sát cạnh vịnh Hạ Long là vịnh Lan Hạ cũng có cảnh quan như thiên đường dưới
-                <br>
-                hạ giới với nhiều núi đá vôi nổi trên mặt nước, những khu rừng nguyên sinh, những
-                <br>
-                làng chài nổi, văn hóa ngàn năm, nhiều trải nghiệm và thoải mái tắm biển.
-                <br>
+                Mới đây, tạp chí du lịch quốc tế Condé Nast Traveler đã bình chọn 50 thị trấn
                 <br>
 
-
-
+                nhỏ đẹp nhất thế giới,trong đó có thị trấn Sapa của Việt Nam. Thị trấn Sapa
+                <br>
+                được biết đến với khung cảnh núi non hùng vĩ, những thửa ruộng bậc thang
+                <br>
+                bát ngát,...
+                <br>
             </h2>
 
 
@@ -218,107 +220,60 @@
 
 
             <h2 id="main2">
-                Có thể nói, đến với quần đảo Cát Bà và vịnh Lan Hạ là có thể lên rừng, xuống biển trong một ngày. Từ Hà
-                Nội,
-                du khách chỉ mất 90 phút đi cao tốc Hà Nội – Hải Phòng tới Phà Gót để bắt đầu hành trình khám phá bằng
-                du thuyền
-                thay vì 150 phút tới vịnh Hạ Long. Hệ thống cáp treo sắp đưa vào hoạt động sẽ đưa bạn từ đất liền tới
-                trung tâm đảo
-                Cát Bà.
-                <br>
-                <br>
-
-                Dưới đây là 10 điểm thú vị bạn nên biết khi du ngoạn vịnh Lan Hạ bằng du thuyềnHeritage Cruises.
-                <br>
-                <br>
-                1. Vịnh Lan Hạ và quần đảo Cát Bà thuộc thành phố Hải Phòng.
-                Đảo Cát Bà là đảo lớn nhất trong quần đảo Cát Bà và lớn thứ hai
-                trong các đảo của Việt Nam, chỉ sau đảo Phú Quốc.
-
-                <br>
-                <br>
                 <figure>
 
                     <img class="anh_internet"
-                        src="https://vanhienplus.vn/wp-content/uploads/2020/05/vinh-lan-ha-vanhienplus-1.jpg"
+                        src="https://photo-baomoi.bmcdn.me/w700_r1/2023_05_12_207_45799042/54af20614e2ca772fe3d.jpg "
                         width="600px" height="463px">
                     <figcaption>
-                        Bức tranh thuỷ mặc </figcaption>
-
-                </figure>
-
-                <figure>
-
-                    <img class="anh_internet"
-                        src="https://vanhienplus.vn/wp-content/uploads/2020/05/vinh-lan-ha-vanhienplus-2-768x512.jpg"
-                        width="600px" height="463px">
-                    <figcaption>
-                        Ngắm hoàng hôn từ pháo đài Thần Công </figcaption>
-
-                </figure>
-
-                <br>
-                2. Vịnh Lan Hạ, quần đảo Cát Bà vừa được là thành viên của Hiệp hội Câu lạc bộ vịnh đẹp thế giới.
-                Vịnh có khoảng gần 400 hòn đảo đá vôi lớn nhỏ, dày đặc san sát nhau, đẹp một cách hoang sơ, mang nhiều
-                hình
-                thù kỳ thú. Du ngoạn bằng du thuyền, bạn sẽ được quan sát các đảo với cự ly gần hơn rất nhiều so với
-                vịnh Hạ Long.
-                <br>
-                <br>
-                <figure>
-
-                    <img class="anh_internet"
-                        src="https://vanhienplus.vn/wp-content/uploads/2020/05/vinh-lan-ha-vanhienplus-3-768x432.jpg"
-                        width="600px" height="463px">
-                    <figcaption>
-                        Du khách giờ đây có thể du ngoạn và ngủ đêm ở vịnh Lan Hạ thay vì đến Hạ Long
+                        Sapa được bình chọn là một trong những thị trấn nhỏ đẹp nhất thế giới. (Ảnh Internet)
                     </figcaption>
 
                 </figure>
 
-                <figure>
-
-                    <img class="anh_internet"
-                        src="https://vanhienplus.vn/wp-content/uploads/2020/05/vinh-lan-ha-vanhienplus-4-768x576.jpg"
-                        width="600px" height="463px">
-                    <figcaption>
-                        Xuồng cao tốc nhỏ đưa du khách từ du thuyền đến các bãi tắm nhỏ </figcaption>
-
-                </figure>
-
-
-                3. Để thăm quan vịnh Lan Hạ, du khách có thể xuất phát từ 2 bến tàu chính là Bến Phà Gót và Bến Bèo.
-                Bến Phà Gót là nơi tập trung các tàu du lịch sang trọng hạng 4- 5 sao. Bến Bèo là nơi tập trung các tàu
-                nhỏ hơn,
-                phù hợp với những nhóm khách nhỏ và các gia đình. Tạp chí nổi tiếng thế giới Travel and Leisure cũng
-                khuyên du khách
-                nên đi du thuyền Heritage Bình Chuẩn để khám phát Cát Bà nếu đi du lịch cùng gia đình và có trẻ nhỏ.
+                <br>
+                Theo Condé Nast Traveler, Sapa là một thị trấn miền núi yên tĩnh nằm ở tỉnh Lào Cai, phía Tây Bắc của
+                Việt Nam.
+                Nơi đây có khung cảnh núi non hùng vĩ, những thửa ruộng bậc thang bát ngát, những thác nước ngoạn mục và
+                cả những
+                con đường mòn uốn lượn. Không những vậy, hàng loạt các điểm đến tuyệt đẹp quanh thị trấn cũng đang chờ
+                đợi du khách
+                ghé thăm như núi Hàm Rồng, đỉnh Fansipan, thung lũng Mường Hoa, hồ Séo Mý Tỷ, đèo Ô Quy Hồ, thác Bạc,
+                thác Tình Yêu…
                 <br>
                 <br>
                 <figure>
 
                     <img class="anh_internet"
-                        src=" https://vanhienplus.vn/wp-content/uploads/2020/05/vinh-lan-ha-vanhienplus-5.jpg"
+                        src="https://photo-baomoi.bmcdn.me/w700_r1/2023_05_12_207_45799042/bb99c857a61a4f44160b.jpg.webp"
                         width="600px" height="463px">
                     <figcaption>
-                        Du thuyền Heritage Bình Chuẩn
+                        Thung lũng Mường Hoa đẹp như tranh vẽ (Ảnh: Tổng cục Du lịch)
                     </figcaption>
 
                 </figure>
 
+                Bên cạnh tận hưởng thiên nhiên tươi đẹp, du khách đừng quên dành thời gian khám phá những địa điểm hấp
+                dẫn không thể
+                bỏ qua khi đến với Sapa. Hãy check-in ở nhà thờ đá, mua sắm ở khu chợ, tìm hiểu về cuộc sống bản địa tại
+                các bản làng
+                truyền thống, hay chỉ đơn giản là đi dạo ngắm nhìn thị trấn..
+                <br>
+                <br>
                 <figure>
 
                     <img class="anh_internet"
-                        src="https://vanhienplus.vn/wp-content/uploads/2020/05/vinh-lan-ha-vanhienplus-6-768x512.jpg"
+                        src="https://photo-baomoi.bmcdn.me/w700_r1/2023_05_12_207_45799042/32835e4d3000d95e8011.jpg.webp"
                         width="600px" height="463px">
                     <figcaption>
-                        Du thuyền ngủ đêm trên vịnh Lan Hạ có cả bể bơi bốn mùa
+                        Nhà thờ đá Sapa (Ảnh: Tổng cục Du lịch)
                     </figcaption>
 
                 </figure>
-                4. Lượng khách đến với vịnh Lan Hạ chưa quá nhiều, điều này vô hình chung lại là điểm mạnh cực lớn của
-                vịnh Lan Hạ.
-                Du khách được thực sự sống giữa thiên nhiên hoang sơ, không một tiếng ồn, không bụi, xanh, sạch đẹp hơn.
+                Thị trấn Sapa cũng có nền ẩm thực riêng biệt mang đậm nét đặc trưng của một thị trấn vùng cao ở Tây Bắc.
+                Nơi đây nổi tiếng với những món ăn truyền thống như thắng cố, thịt trâu gác bếp, thịt lợn cắp nách, gà
+                đen, cá hồi,
+                các món nướng, xôi ngũ sắc, cơm lam, rượu táo mèo…
                 <br />
                 <br>
                 <div class="mm">
@@ -329,35 +284,11 @@
                         <figure>
 
                             <img class="anh_internet"
-                                src="https://vanhienplus.vn/wp-content/uploads/2020/05/vinh-lan-ha-vanhienplus-7-768x431.jpg"
+                                src=" https://photo-baomoi.bmcdn.me/w700_r1/2023_05_12_207_45799042/47d52d1b4356aa08f347.jpg.webp"
                                 width="600px" height="463px">
                             <figcaption>
-                                Số lượng tàu ngủ đêm trên vịnh Lan Hạ ít hơn nhiều so với vịnh Hạ Long nhưng mỗi du
-                                thuyền được đóng mới hiện đại và lớn hơn
-                            </figcaption>
-
-                        </figure>
-                        5. Với số lượng gần 400 đảo đá lớn nhỏ hình thù đẹp mắt nhưng phân bố trên một diện tích nhỏ hơn
-                        Hạ Long
-                        nên các đảo đá nằm khá sát nhau tạo nên những bức tranh thiên nhiên kì thú.
-                        <figure>
-
-                            <img class="anh_internet"
-                                src="https://vanhienplus.vn/wp-content/uploads/2020/05/vinh-lan-ha-vanhienplus-8-768x575.jpg"
-                                width="600px" height="463px">
-                            <figcaption>
-                                Vẻ đẹp của tạo hoá
-                            </figcaption>
-
-                        </figure>
-
-                        <figure>
-
-                            <img class="anh_internet"
-                                src="https://vanhienplus.vn/wp-content/uploads/2020/05/vinh-lan-ha-vanhienplus-9-768x373.jpg"
-                                width="600px" height="463px">
-                            <figcaption>
-                                Chèo thuyền kayak đến những đảo nhỏ
+                                Ẩm thực Sapa mang đậm nét đặc trưng của một thị trấn vùng cao ở Tây Bắc. (Ảnh:
+                                laocaitourism.vn)
                             </figcaption>
 
                         </figure>
@@ -389,7 +320,6 @@
             <p>DANG NHAP DE BINH LUAN </p>
 
             <br />
-
             <div class="socials-share">
                 <a class="bg-facebook" href=" https://www.facebook.com/sharer/sharer.php?u=http://127.0.0.1:5500/Tintuc.html" target="_blank"><span class="fa fa-facebook"></span> Share</a>
                                      <!-- chèn link liên kết chia sẻ của facebook       ?u là liên kết cần chia sẻ -->
@@ -405,6 +335,7 @@
                                         <!-- chèn link chia sẻ của google vo href                tiêu đề (su) còn body là phần liên kết cần chia sẻ -->
             
             </div>
+
 
         </div>
 
